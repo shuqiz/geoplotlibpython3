@@ -57,7 +57,7 @@ def inline(width=900):
     from IPython.display import Image, HTML, display, clear_output
     import random
     import string
-    import urllib
+    import urllib.request, urllib.parse, urllib.error
     import os
 
     while True:
